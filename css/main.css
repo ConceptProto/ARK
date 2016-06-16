@@ -1,0 +1,88 @@
+body {
+	font-family: Monaco,monospace;
+	margin: 1%;
+	background-color: white;
+	border: 1px solid #F0F0F0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.card {
+	margin: 1%;
+	background-color: #F0F0F0;
+	border: 1px solid #F0F0F0;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+.navbar-toggle {
+    z-index:3;
+}
+.navbar {
+	background-color: #F0F0F0;
+	min-height: 150px;
+	margin-bottom: 0;
+}
+
+.navbar-collapse {
+	padding-right: 10%;
+	position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+
+.navbar-nav {
+	padding-left: 10%;
+	font-size: 0.9em;
+    line-height: 3em;
+}
+
+#navbar-collapse-1 > ul > li > a {
+	padding-right: 30px;
+}
+
+#myCarousel.carousel.slide {
+	padding: 0;
+	width: 100;
+	margin: 0 auto;
+}
+
+.navbar-default {
+	border-color: #F0F0F0;
+}
+
+div.container.slider {
+	background-color: #F0F0F0;
+	padding: 0 15px;
+}
+
+.jumbotron {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.container {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.col-md-12 {
+	padding: 0;
+}
+
+.container .jumbotron {
+	padding: 0;
+}
+
+.container.second {
+	background: black;
+}
