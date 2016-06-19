@@ -1,0 +1,85 @@
+html {
+	font-family: Monaco, monospace;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Monaco, monospace;
+		background-image: url(../images/background4.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin-top: 7.5%
+  }
+
+nav {
+	background-color: #f0f0f0;
+	box-shadow: none;
+	margin-bottom: 15%;
+}
+
+nav ul a.btn-flat {
+	color: #994d00;
+	font-size: 0.8em;
+}
+
+nav > ul > a {
+	color: #039be5;
+}
+
+@media (min-width:993px) {
+	.modal-container {
+
+	}
+}
+
+.tester {
+	background: black;
+	min-height: 100px;
+}
+
+.container {
+	margin: 2% auto;
+	width: 95%;
+}
+
+.card {
+	font-size: 0.8em;
+	font-family: roboto, sans-serif;
+}
+
+.modal-card {
+	width: 16%;
+	height: auto;
+	float: left;
+	margin: 0 2%;
+}
+
+.modal.bottom-sheet {
+	height: 45%;
+}
+
+.modal .modal-content {
+	height: 100%;
+	font-family: roboto, sans-serif;
+	color: black;
+}
+
+.card-content {
+	padding: 5%;
+}
+
+.btn-flat {
+	padding: 0;
+}
+
+.main-content {
+	margin: 7.5%;
+	background-color: #f0f0f0;
+	border: 1px solid #f0f0f0;
+}
+
+footer.page-footer {
+	background-color: #ef9a9a;
+}
